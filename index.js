@@ -1,7 +1,9 @@
 import { tweetsData } from "./data";
-import { v4 as uuidv4 } from 'uuid'
+// import { v4 as uuidv4 } from 'uuid'
+import { v4 as uuidv4 } from 'https://jspm.dev/uuid'
 
 const feedEl = document.querySelector('#feed')
+console.log(uuidv4());
 
 
 document.addEventListener('click', function(e) {  
